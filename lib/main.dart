@@ -10,8 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.brown,
-        body: SafeArea(
-          child: Column(
+        body: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Container(
@@ -51,7 +50,6 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ),
-      ),
     );
   }
 }

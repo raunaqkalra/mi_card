@@ -1,4 +1,4 @@
-# mi_card
+# Mi Card
 
 A new Flutter application which dipslays a card for a user statically.
 

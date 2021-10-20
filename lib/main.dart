@@ -3,17 +3,20 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
+///This is the main widget called my main method.
+///Root of application
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.brown,
         body: SafeArea(
+          ///Creates a vertical column which contains a circular image, text and 2 cards
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              ///Creates a circular image of radius 50
               Container(
                 child: CircleAvatar(
                   radius: 50,
@@ -36,6 +39,7 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
+                  ///Creates a row containing an icon, and email ID
                   child: Row(
                     children: <Widget>[
                       Icon(Icons.email, color: Colors.white,),

@@ -5,6 +5,7 @@ void main() => runApp(MyApp());
 
 ///This is the main widget called my main method.
 ///Root of application
+//Modifications done
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
